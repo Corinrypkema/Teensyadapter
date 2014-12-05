@@ -1344,7 +1344,7 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <instance part="T-2" gate="G$1" x="248.92" y="116.84"/>
 <instance part="T-3" gate="G$1" x="243.84" y="137.16" rot="R90"/>
 <instance part="WIZJ2" gate="1" x="259.08" y="30.48" rot="MR180"/>
-<instance part="WIZJ1" gate="1" x="210.82" y="30.48" rot="MR180"/>
+<instance part="WIZJ1" gate="1" x="198.12" y="30.48" rot="MR180"/>
 <instance part="PH1" gate="G$1" x="88.9" y="165.1"/>
 <instance part="PH2" gate="G$1" x="88.9" y="142.24"/>
 <instance part="PH3" gate="G$1" x="88.9" y="119.38"/>
@@ -1370,7 +1370,7 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <label x="284.48" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CS1" class="0">
+<net name="WIZCS0" class="0">
 <segment>
 <pinref part="T-2" gate="G$1" pin="11"/>
 <wire x1="256.54" y1="127" x2="271.78" y2="127" width="0.1524" layer="91"/>
@@ -1532,67 +1532,32 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <label x="241.3" y="162.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$48" class="0">
-<segment>
-<pinref part="T-3" gate="G$1" pin="4"/>
-<wire x1="243.84" y1="144.78" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
-<label x="243.84" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="WIZJ1" gate="1" pin="8"/>
-<wire x1="218.44" y1="20.32" x2="228.6" y2="20.32" width="0.1524" layer="91"/>
-<label x="228.6" y="20.32" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="WIZJ1" gate="1" pin="7"/>
-<wire x1="218.44" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
-<label x="233.68" y="22.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$54" class="0">
+<net name="WIZSCSN" class="0">
 <segment>
 <pinref part="WIZJ1" gate="1" pin="6"/>
-<wire x1="218.44" y1="25.4" x2="228.6" y2="25.4" width="0.1524" layer="91"/>
-<label x="228.6" y="25.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="205.74" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="218.44" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="WIZSCLK" class="0">
 <segment>
 <pinref part="WIZJ1" gate="1" pin="5"/>
-<wire x1="218.44" y1="27.94" x2="236.22" y2="27.94" width="0.1524" layer="91"/>
-<label x="236.22" y="27.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="205.74" y1="27.94" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
+<label x="233.68" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="WIZMISO" class="0">
 <segment>
 <pinref part="WIZJ1" gate="1" pin="4"/>
-<wire x1="218.44" y1="30.48" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
-<label x="228.6" y="30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="205.74" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
+<label x="218.44" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$57" class="0">
+<net name="WIZMOSI" class="0">
 <segment>
 <pinref part="WIZJ1" gate="1" pin="3"/>
-<wire x1="218.44" y1="33.02" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
-<label x="236.22" y="33.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$58" class="0">
-<segment>
-<pinref part="WIZJ1" gate="1" pin="2"/>
-<wire x1="218.44" y1="35.56" x2="228.6" y2="35.56" width="0.1524" layer="91"/>
-<label x="228.6" y="35.56" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$59" class="0">
-<segment>
-<pinref part="WIZJ1" gate="1" pin="1"/>
-<wire x1="218.44" y1="38.1" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
-<label x="236.22" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="205.74" y1="33.02" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
+<label x="233.68" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$60" class="0">
@@ -1676,9 +1641,14 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <label x="111.76" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T-3" gate="G$1" pin="2"/>
-<wire x1="248.92" y1="144.78" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
-<label x="248.92" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="WIZJ1" gate="1" pin="7"/>
+<wire x1="205.74" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
+<label x="233.68" y="22.86" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="WIZJ1" gate="1" pin="8"/>
+<wire x1="205.74" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
+<label x="218.44" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1722,14 +1692,24 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <label x="63.5" y="60.96" size="1.778" layer="95" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T-3" gate="G$1" pin="3"/>
-<wire x1="246.38" y1="144.78" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
-<label x="246.38" y="162.56" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="T-2" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="101.6" x2="271.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="271.78" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="T-3" gate="G$1" pin="4"/>
+<wire x1="243.84" y1="144.78" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
+<label x="243.84" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="WIZJ1" gate="1" pin="1"/>
+<wire x1="205.74" y1="38.1" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
+<label x="233.68" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="WIZJ1" gate="1" pin="2"/>
+<wire x1="205.74" y1="35.56" x2="218.44" y2="35.56" width="0.1524" layer="91"/>
+<label x="218.44" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -1991,6 +1971,20 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <segment>
 <pinref part="PH7" gate="G$1" pin="3"/>
 <wire x1="71.12" y1="190.5" x2="48.26" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBATT" class="0">
+<segment>
+<pinref part="T-3" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="144.78" x2="248.92" y2="152.4" width="0.1524" layer="91"/>
+<label x="248.92" y="152.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="VCC3??" class="0">
+<segment>
+<pinref part="T-3" gate="G$1" pin="3"/>
+<wire x1="246.38" y1="144.78" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
+<label x="246.38" y="162.56" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>

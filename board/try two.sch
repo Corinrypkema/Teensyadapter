@@ -1399,15 +1399,6 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <label x="7.62" y="152.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="INTC" class="0">
-<segment>
-<pinref part="T-2" gate="G$1" pin="7"/>
-<label x="-5.08" y="149.86" size="1.778" layer="95" xref="yes"/>
-<wire x1="48.26" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="147.32" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="149.86" x2="-20.32" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="INTD" class="0">
 <segment>
 <pinref part="T-2" gate="G$1" pin="6"/>
@@ -1876,12 +1867,6 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <wire x1="-124.46" y1="147.32" x2="-45.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="PH9" gate="G$1" pin="3"/>
-<wire x1="71.12" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="PH9" gate="G$1" pin="1"/>
@@ -1970,6 +1955,16 @@ http://wizwiki.net/wiki/doku.php?id=products:wiz550io:allpages#dimension</text>
 <segment>
 <pinref part="PH7" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="185.42" x2="48.26" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="INTC" class="0">
+<segment>
+<pinref part="T-2" gate="G$1" pin="7"/>
+<wire x1="-20.32" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="149.86" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="PH9" gate="G$1" pin="3"/>
+<wire x1="45.72" y1="147.32" x2="71.12" y2="147.32" width="0.1524" layer="91"/>
+<label x="45.72" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
